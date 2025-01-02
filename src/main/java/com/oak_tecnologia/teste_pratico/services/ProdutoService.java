@@ -4,6 +4,7 @@ import com.oak_tecnologia.teste_pratico.dto.CreateProdutoDTO;
 import com.oak_tecnologia.teste_pratico.dto.ProdutoDTO;
 import com.oak_tecnologia.teste_pratico.entities.Produto;
 import com.oak_tecnologia.teste_pratico.repositories.ProdutoRepository;
+import com.oak_tecnologia.teste_pratico.services.exceptions.OpcaoInvalidaException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -52,7 +53,7 @@ public class ProdutoService {
                 break;
             }
             default:{
-                throw new IllegalArgumentException("Valores aceitos: SIM / NÂO.");
+                throw new OpcaoInvalidaException("Valores aceitos: SIM / NÂO.");
             }
         }
         return produto;
