@@ -22,7 +22,16 @@ public class ProdutoService {
         Produto novoProduto = produtoRepository.save(produto);
         return produtoRepository.findAll()
                 .stream()
-                .sorted()
+                .sorted((o1, o2) -> o1.getValor().compareTo(o2.getValor()))
+                .map(prod -> new ProdutoDTO(prod.getNome(), prod.getValor()))
+                .toList();
+    }
+
+    @Transactional(readOnly = true)
+    public List<ProdutoDTO> findAll(){
+        return produtoRepository.findAll()
+                .stream()
+                .sorted((o1, o2) -> o1.getValor().compareTo(o2.getValor()))
                 .map(prod -> new ProdutoDTO(prod.getNome(), prod.getValor()))
                 .toList();
     }
