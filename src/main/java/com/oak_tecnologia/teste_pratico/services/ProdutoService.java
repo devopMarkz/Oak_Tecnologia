@@ -1,6 +1,6 @@
-package com.oak_tecnologia.backend.services;
+package com.oak_tecnologia.teste_pratico.services;
 
-import com.oak_tecnologia.backend.repositories.ProdutoRepository;
+import com.oak_tecnologia.teste_pratico.repositories.ProdutoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

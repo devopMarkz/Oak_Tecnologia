@@ -1,4 +1,4 @@
-package com.oak_tecnologia.backend.controllers;
+package com.oak_tecnologia.teste_pratico.controllers;
 
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.oak_tecnologia.backend;
+package com.oak_tecnologia.teste_pratico;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

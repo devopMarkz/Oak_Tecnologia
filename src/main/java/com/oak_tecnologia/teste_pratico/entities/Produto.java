@@ -1,4 +1,4 @@
-package com.oak_tecnologia.backend.entities;
+package com.oak_tecnologia.teste_pratico.entities;
 
 import jakarta.persistence.*;
 

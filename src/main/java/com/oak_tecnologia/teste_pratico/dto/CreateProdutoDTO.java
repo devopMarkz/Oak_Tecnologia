@@ -1,4 +1,4 @@
-package com.oak_tecnologia.backend.dto;
+package com.oak_tecnologia.teste_pratico.dto;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
