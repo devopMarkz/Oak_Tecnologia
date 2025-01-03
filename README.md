@@ -131,7 +131,7 @@ A API possui os seguintes endpoints:
 
 ### 3. Interagindo com o Front-End
 
-Como mencionamos, o front-end funcional em **`index.html`** já está integrado à API. Você pode realizar as seguintes ações através da interface de usuário:
+Como mencionado, o front-end funcional em **`index.html`** já está integrado à API. Você pode realizar as seguintes ações através da interface de usuário:
 
 - **Criar Produto**: Preencha o formulário de criação de produto no front-end e clique no botão para adicionar um novo produto. O formulário enviará os dados para o endpoint **POST /produtos**.
   
