@@ -41,7 +41,6 @@ Antes de começar, certifique-se de que os seguintes softwares estão instalados
 5. Verifique se o Maven está configurado corretamente:
    - Vá em **File** → **Project Structure** → **Modules**.
    - Certifique-se de que o módulo está apontando para a versão correta do **JDK 21**.
-6. Agora você pode rodar a aplicação. Clique em **Run** no canto superior direito, ou vá em **Run** → **Run 'Application'**.
 
 ### 3. Importando o Projeto no Eclipse
 
@@ -54,7 +53,6 @@ Antes de começar, certifique-se de que os seguintes softwares estão instalados
 7. Verifique se o Maven está configurado corretamente:
    - Clique com o botão direito no projeto e vá até **Properties**.
    - Em **Java Build Path**, verifique se o **JDK 21** está selecionado.
-8. Agora você pode rodar a aplicação. Clique com o botão direito no projeto e selecione **Run As** → **Spring Boot App**.
 
 ### 4. Rodando a Aplicação
 
