@@ -8,7 +8,7 @@ Apenas o backend foi commitado para que possam ser passadas as instruções para
 O projeto utiliza as seguintes tecnologias e frameworks:
 
 - **Java 21**: A versão mais recente do Java, utilizada para o desenvolvimento da aplicação backend.
-- **Spring Boot 3.x**: Framework para desenvolvimento de aplicações Java baseadas em Spring, oferecendo fácil configuração e inicialização de servidores.
+- **Spring Boot 3.4.1**: Framework para desenvolvimento de aplicações Java baseadas em Spring, oferecendo fácil configuração e inicialização de servidores.
 - **Spring Data JPA**: Utilizado para a persistência de dados em banco de dados relacional com uma abordagem de mapeamento objeto-relacional (ORM).
 - **Spring Security**: Framework para proteção e autenticação de aplicações web.
 - **Bean Validation (javax.validation)**: Usado para validações de dados na entrada de requisições.
