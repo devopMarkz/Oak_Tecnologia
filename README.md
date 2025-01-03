@@ -144,6 +144,7 @@ Não é necessário utilizar o **Postman** ou qualquer outra ferramenta para int
 2. A interface do front-end será carregada automaticamente.
 3. Utilize os formulários e botões para interagir com a API de forma simples e intuitiva.
 
+---
 
 ### 5. Considerações Finais
 
