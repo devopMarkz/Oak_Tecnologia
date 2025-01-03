@@ -1,6 +1,6 @@
 # Teste Técnico - Oak Tecnologia
 
-Este projeto foi desenvolvido como parte do teste técnico para a vaga de estágio na **Oak Tecnologia**. A aplicação é uma API RESTful desenvolvida com o **Spring Boot** e outras tecnologias modernas.
+Este projeto foi desenvolvido como parte do teste técnico para a vaga de estágio na **Oak Tecnologia**. A aplicação é uma API RESTful desenvolvida com o **Spring Boot**, banco de dados em memória (H2) e outras tecnologias modernas.
 Apenas o backend foi commitado para que possam ser passadas as instruções para fazê-lo funcionar.
 
 ## Tecnologias Utilizadas
@@ -8,6 +8,7 @@ Apenas o backend foi commitado para que possam ser passadas as instruções para
 O projeto utiliza as seguintes tecnologias e frameworks:
 
 - **Java 21**: A versão mais recente do Java, utilizada para o desenvolvimento da aplicação backend.
+- - **Banco de dados H2**: Banco de dados relacional em memória, escrito em Java, ideal para testes.
 - **Spring Boot 3.4.1**: Framework para desenvolvimento de aplicações Java baseadas em Spring, oferecendo fácil configuração e inicialização de servidores.
 - **Spring Data JPA**: Utilizado para a persistência de dados em banco de dados relacional com uma abordagem de mapeamento objeto-relacional (ORM).
 - **Spring Security**: Framework para proteção e autenticação de aplicações web.
