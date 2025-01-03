@@ -34,7 +34,7 @@ Antes de começar, certifique-se de que os seguintes softwares estão instalados
 
 1. Abra o IntelliJ IDEA.
 2. Selecione **Open** no menu principal.
-3. Navegue até a pasta onde você clonou ou extraiu o repositório do projeto e selecione o diretório do projeto.
+3. Navegue até a pasta onde você clonou ou extraiu o repositório do projeto e selecione o diretório do projeto (backend).
 4. O IntelliJ deve detectar automaticamente que o projeto é um projeto Maven e importar as dependências automaticamente. Caso contrário, você pode forçar o IntelliJ a carregar as dependências Maven manualmente:
    - Vá em **View** → **Tool Windows** → **Maven**.
    - Clique no ícone de **refresh** na janela do Maven para atualizar as dependências.
